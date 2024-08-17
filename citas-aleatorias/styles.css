@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(imagenes/biblioteca.jpg) no-repeat center center/cover;
+}
+.contenido-centrado {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+ /* Contenedor */
+.contenedor {
+  width: 80vw;
+  max-width: 600px;
+  min-height: 500px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
+  border-radius: 30px;
+  color: white;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.5);
+}
+.contenedor-interno {
+  width: 80%;
+}
+/* Contenido */
+
+#titulo {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Courgette', cursive; 
+}
+#cita {
+  width: 100%;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-family: 'Courgette', cursive;
+}
+#autor {
+  width: 100%;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Courgette', cursive;
+}
+#boton-cambiar-cita {
+  width: 60%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Courgette', cursive;
+  margin: 0 auto;
+  background-color: rgba(101, 101, 101, 0.5);
+  color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.5);
+  transition: 0.4s;
+}
+#boton-cambiar-cita:hover {
+  background-color: rgba(101, 101, 101, 0.8);
+}

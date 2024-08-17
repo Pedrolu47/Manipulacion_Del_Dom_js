@@ -1,0 +1,85 @@
+/* Estilos Generales
+ */* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background: url(imagenes/madera.jpg) no-repeat center center/cover; */
+  background-color: #b1b1b1; /* color metalico */
+}
+.contenedor-principal {
+  width: 80vw;
+  max-width: 600px;
+  min-height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #454F55; /* color titanio */
+  border-radius: 50px;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1)
+}
+.contenedor-botones {
+  padding: 20px;
+}
+#cronometro {
+  width: 100%;
+  font-size: 80px;
+  color: white;
+  font-weight: 800;
+  user-select: none;
+  font-family: 'Noto Sans Thai', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .boton {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #4CAF50;
+  font-family: 'Noto Sans Thai', sans-serif;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.boton:hover {
+  background: #3e8e41;
+}
+.iniciar {
+  background: #4CAF50;
+}
+.reiniciar {
+  background: #ff9800;
+} */
+.boton {
+  width: 80px;
+  height: 80px;
+  font-size: 50px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#boton-inicio-pausa.iniciar,
+#boton-inicio-pausa.iniciar i {
+  background-color: rgb(8, 224, 8);
+}
+
+#boton-inicio-pausa.pausar,
+#boton-inicio-pausa.pausar i {
+  background-color: rgba(255, 220, 0, 0.7);
+}
+
+#boton-reiniciar {
+  background-color: rgba(255, 0, 0, 0.7);
+}
+

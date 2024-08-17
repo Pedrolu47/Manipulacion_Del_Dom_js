@@ -1,0 +1,51 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #C0C0C0;
+  text-align: center;  
+  background-color: rgba(23, 41, 56, 0.7);
+}
+/* Contenedores */
+.contenedor-principal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  min-height: 350px;
+  max-width: 600px;
+  width: 80%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.color {
+  padding: 20px;
+  margin: 20px;
+  font-size: 2em;
+  font-weight: bold;
+  color: #C0C0C0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+label, p {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #C0C0C0;
+  margin: 20px;
+}
